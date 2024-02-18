@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: tan;">
+    <h1>Write a javascript function to return the maximum of 3 numbers. </h1>
+    
+<script> 
+    // take input from the user, parsefloat is used to accept a string and convert it into a floating-point number
+    // The parseFloat() method parses a value as a string and returns the first number.
+    // If the first character cannot be converted, NaN is returned, Leading and trailing spaces are ignored, Only the first number found is returned.
+const num1 = parseFloat(prompt("first number is: "));
+const num2 = parseFloat(prompt("Second number is: "));
+const num3 = parseFloat(prompt("Third number is: "));
+
+
+// check the condition, using math method to find the maximum number
+const largest = Math.max(num1, num2, num3);
+
+// displaying the result
+console.log("The largest number is " + largest);
+</script>
+  
+</body>
+</html>
